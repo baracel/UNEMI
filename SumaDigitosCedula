@@ -1,0 +1,11 @@
+Algoritmo SumaDigitosCedula
+    Definir cédula Como Caracter
+    Definir sumaDigitos, i Como Entero
+    Escribir "Ingrese el número de cédula: "
+    Leer cédula
+    sumaDigitos <- 0
+    Para i <- 0 Hasta Longitud(cédula) - 1 Hacer
+        sumaDigitos <- sumaDigitos + ConvertirANumero(Subcadena(cedula, i, i))
+    FinPara
+    Escribir "La suma de los dígitos de la cédula ", cedula, " es: ", sumaDigitos
+FinAlgoritmo
